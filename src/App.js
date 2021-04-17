@@ -1,9 +1,11 @@
 import React, { Component } from "react";
-import IterationSample from "./iterationSample";
+import IterationSample from './iterationSample';
 
 class App extends Component {
   render() {
-    return <IterationSample />;
+    return (
+      <IterationSample />
+    );
   }
 }
 
